@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "787e71ee018ce7a9ed3be56648386de1"
+build_time: [534581510, 945913000]
+inputs:
+  "/Users/stitch/Documents/Informatique/iOS/iOS10/4-Foundational iOS/NoStoryboard/NoStoryboard/YellowVC.swift": [534581491, 0]
+  "/Users/stitch/Documents/Informatique/iOS/iOS10/4-Foundational iOS/NoStoryboard/NoStoryboard/AppDelegate.swift": [534581426, 0]

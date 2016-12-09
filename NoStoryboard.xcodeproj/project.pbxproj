@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F71B18351DFA8BB200F21FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B18341DFA8BB200F21FFC /* AppDelegate.swift */; };
-		F71B18371DFA8BB200F21FFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B18361DFA8BB200F21FFC /* ViewController.swift */; };
-		F71B183A1DFA8BB200F21FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71B18381DFA8BB200F21FFC /* Main.storyboard */; };
+		F71B18371DFA8BB200F21FFC /* YellowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B18361DFA8BB200F21FFC /* YellowVC.swift */; };
 		F71B183C1DFA8BB200F21FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71B183B1DFA8BB200F21FFC /* Assets.xcassets */; };
-		F71B183F1DFA8BB200F21FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71B183D1DFA8BB200F21FFC /* LaunchScreen.storyboard */; };
+		F71B184A1DFA8C0600F21FFC /* YellowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71B18491DFA8C0600F21FFC /* YellowVC.xib */; };
+		F71B184D1DFA8E6600F21FFC /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B184B1DFA8E6600F21FFC /* BlueVC.swift */; };
+		F71B184E1DFA8E6600F21FFC /* BlueVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71B184C1DFA8E6600F21FFC /* BlueVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F71B18311DFA8BB200F21FFC /* NoStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71B18341DFA8BB200F21FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F71B18361DFA8BB200F21FFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F71B18391DFA8BB200F21FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F71B18361DFA8BB200F21FFC /* YellowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowVC.swift; sourceTree = "<group>"; };
 		F71B183B1DFA8BB200F21FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F71B183E1DFA8BB200F21FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F71B18401DFA8BB200F21FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71B18491DFA8C0600F21FFC /* YellowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowVC.xib; sourceTree = "<group>"; };
+		F71B184B1DFA8E6600F21FFC /* BlueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
+		F71B184C1DFA8E6600F21FFC /* BlueVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		F71B18331DFA8BB200F21FFC /* NoStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				F71B18481DFA8BD200F21FFC /* Controller */,
+				F71B18471DFA8BCF00F21FFC /* Model */,
+				F71B18461DFA8BCD00F21FFC /* View */,
 				F71B18341DFA8BB200F21FFC /* AppDelegate.swift */,
-				F71B18361DFA8BB200F21FFC /* ViewController.swift */,
-				F71B18381DFA8BB200F21FFC /* Main.storyboard */,
 				F71B183B1DFA8BB200F21FFC /* Assets.xcassets */,
-				F71B183D1DFA8BB200F21FFC /* LaunchScreen.storyboard */,
 				F71B18401DFA8BB200F21FFC /* Info.plist */,
 			);
 			path = NoStoryboard;
+			sourceTree = "<group>";
+		};
+		F71B18461DFA8BCD00F21FFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F71B18491DFA8C0600F21FFC /* YellowVC.xib */,
+				F71B184C1DFA8E6600F21FFC /* BlueVC.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F71B18471DFA8BCF00F21FFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F71B18481DFA8BD200F21FFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F71B18361DFA8BB200F21FFC /* YellowVC.swift */,
+				F71B184B1DFA8E6600F21FFC /* BlueVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +151,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71B183F1DFA8BB200F21FFC /* LaunchScreen.storyboard in Resources */,
+				F71B184E1DFA8E6600F21FFC /* BlueVC.xib in Resources */,
+				F71B184A1DFA8C0600F21FFC /* YellowVC.xib in Resources */,
 				F71B183C1DFA8BB200F21FFC /* Assets.xcassets in Resources */,
-				F71B183A1DFA8BB200F21FFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,31 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71B18371DFA8BB200F21FFC /* ViewController.swift in Sources */,
+				F71B18371DFA8BB200F21FFC /* YellowVC.swift in Sources */,
 				F71B18351DFA8BB200F21FFC /* AppDelegate.swift in Sources */,
+				F71B184D1DFA8E6600F21FFC /* BlueVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F71B18381DFA8BB200F21FFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F71B18391DFA8BB200F21FFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F71B183D1DFA8BB200F21FFC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F71B183E1DFA8BB200F21FFC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F71B18411DFA8BB200F21FFC /* Debug */ = {
